@@ -15,7 +15,7 @@
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":",+O`$~[PztK{lDK$-p1W"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="A%5Y.0*1S!E`,h5DIfMP"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="nzxa.k35kEG/L,mT*w)P"><field name="VAR" id="9M.A11wR*WH~z;[z#R$b">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="t}-;b/:HO*8eb?IXT3U*"><value name="img"><shadow type="screen_image_picker" id="rE063!j_qF_vX@7E-bGo"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":",+O`$~[PztK{lDK$-p1W"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="A%5Y.0*1S!E`,h5DIfMP"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="/|x8w!.:CK:OZgXz;*kH"><field name="VAR" id="9M.A11wR*WH~z;[z#R$b">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="*vEMpL#?.FH7y|HQRvoR"><value name="img"><shadow type="screen_image_picker" id="n1%YUpN8`9T;d4R$)^g."><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -32,4 +32,4 @@
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"rE063!j_qF_vX@7E-bGo"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="?~rc.$O~(jk0Gco@w?p6"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"n1%YUpN8`9T;d4R$)^g."}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="GBjmdOw4Lj+$p$9R=~jo"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
