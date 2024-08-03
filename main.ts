@@ -127,8 +127,8 @@ function dinoWalkingMechanism () {
     Goblin.setImage(assets.image`myImage0`)
 }
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.brick, function (sprite, location) {
-    tiles.placeOnRandomTile(Player1, sprites.dungeon.floorLight1)
     game.showLongText("Don’t touch the border", DialogLayout.Bottom)
+    tiles.placeOnRandomTile(Player1, sprites.dungeon.floorLight1)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     Player1.x += -16
@@ -197,6 +197,11 @@ statusbars.onZero(StatusBarKind.GoblinHealth3, function (status) {
     game.showLongText("+30 exp", DialogLayout.Bottom)
     game.showLongText("+30 exp", DialogLayout.Bottom)
 })
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.purpleOuterWest1, function (sprite, location) {
+    game.showLongText("You are not ready", DialogLayout.Bottom)
+    scene.cameraShake(4, 1000)
+    Player1.x += -32
+})
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Goblin3, function (sprite, otherSprite) {
     statusbarPlayer.value += -6
     otherSprite.x += 32
@@ -227,11 +232,6 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . . f f f f f f . . . . . 
         . . . . . f f . . f f . . . . . 
         `)
-})
-scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.purpleOuterWest0, function (sprite, location) {
-    scene.cameraShake(4, 1000)
-    Player1.x += -32
-    game.showLongText("You are not ready", DialogLayout.Bottom)
 })
 statusbars.onZero(StatusBarKind.GoblinHealth1, function (status) {
     sprites.destroy(Goblin)
